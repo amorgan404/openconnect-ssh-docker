@@ -68,4 +68,4 @@ ssh -o "ProxyCommand=ssh -W %h:%p root@localhost -p 222" user@192.168.0.10
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/amorgan404/openconnect-ssh-docker/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/amorgan404/openconnect-ssh-docker?tab=MIT-1-ov-file#) file for details.
