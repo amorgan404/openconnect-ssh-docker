@@ -20,7 +20,7 @@ Run the Docker Container
 
 To run the container, use the following command:
 
-```sh
+```
 docker run -it -d --privileged -p 222:22 \
     -e VPN_SERVER="vpn.example.com" \
     -e VPN_USERNAME="user" \
@@ -65,3 +65,7 @@ ssh -o "ProxyCommand=ssh -W %h:%p root@localhost -p 222" user@192.168.0.10
   #### Before
   ```sh
   docker run -e VPN_SERVER=example.com -e VPN_SERVERCERT="pin-sha256:Jyeq2EIRLeXSyb654qOFYSmZt/1YnMGgWi0mskRNJJo=" morgan404/openconnect-client:1.0
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/amorgan404/openconnect-ssh-docker/main/LICENSE) file for details.
